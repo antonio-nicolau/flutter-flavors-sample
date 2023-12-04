@@ -3,6 +3,10 @@
 This Flutter project serves as a simple example to demonstrate the concept of "flavors" in Flutter applications. Flavors allow you to create multiple variations of your app with different configurations, resources, and behavior, catering to various environments or purposes.
 
 
+![Screenshot 2023-12-05 at 00 12 06](https://github.com/antonio-nicolau/flutter-flavors-sample/assets/67912928/eb30c4af-ede2-49f4-b9b4-fbbcc6485042)
+
+
+
 ## What are Flavors?
 
 In Flutter, "flavors" refer to the ability to create different variations of your app based on different configurations. This allows you to manage environments, such as development, staging, and production, or create custom versions for different clients.
