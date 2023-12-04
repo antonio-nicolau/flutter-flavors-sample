@@ -58,6 +58,32 @@ android {
             signingConfig signingConfigs.debug
         }
     }
+
+    // Flavor configuration
+    // see AndroidManifest as well
+    flavorDimensions "app"
+
+    productFlavors{
+
+        development{
+            dimension "app"
+            resValue "string", "app_name", "FLAVOR DEV"
+            applicationIdSuffix ".dev"
+        }
+        staging{
+            dimension "app"
+            resValue "string", "app_name", "FLAVOR STAG"
+            applicationIdSuffix ".staging"
+        }
+        production{
+            dimension "app"
+            resValue "string", "app_name", "FLAVOR"
+        }
+
+    }
+
+
+
 }
 
 flutter {
